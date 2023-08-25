@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body{
+    background-color: rgb(215, 173, 173);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 27px;
+    background-color: black;
+    color: white;
+}
+.brand img{
+
+    width: 27px;
+    padding: 0 9px;
+}
+.brand{
+    font-weight: bolder;
+    padding: auto;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand{
+    display: flex;
+}
+.bottom
+{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.icon{
+    margin-top: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.icon i{
+    cursor: pointer;
+}
+
+
+.container
+{
+    height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 21px auto;
+    padding: 34px;
+    border-radius: 12px;
+    background-image: url("bg.jpg");
+    /* background-size: 70% 70%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.container img{
+object-fit: cover;
+    width: 10px;
+}
+
+
+
+.songItemContainer{
+
+    margin-top: 21px;
+}
+
+
+
+#myProgressBar{
+    width: 90vw;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+
+    
+}
+.songItem{
+    height: 70px;
+    display: flex;
+    background-color: rgb(255, 131, 151);
+    color: black;
+    border-radius: 21px;
+    margin: 12px 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.songItem img{
+    width: 50px;
+    margin: 0 18px;
+    border-radius: 100px;
+}
+.songinfo img{
+    height: 20px;
+    width: 30px;
+
+}
+.songinfo{
+    position: absolute;
+    left: 10px;
+    padding-top: 20px;
+}
+
+.songinfo img{
+   
+    opacity: 0;
+    transition: opacity 0.31s ease-in;
+}
+
+.timestamp{
+    padding: 20px;
+    cursor: pointer;
+}
+.timestamp i{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: lightblue;
+    }
+  }

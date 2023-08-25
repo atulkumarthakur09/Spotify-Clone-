@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify- My Music </title>
+    <link rel="stylesheet" href="spotifyclone.css">
+    <!-- <link rel="stylesheet" href="spotifyclone.js"> -->
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png">Spotify </li>
+            <li>Home</li>
+            <li>My Music</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+
+        <div class="SongList">
+            <h1>Best Of NCS - No Copyright Songs</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="download22.jpg" alt="1">
+                    <span class="songName">Tu Mann Meri Jann</span>
+                    <span class="songlistplay"> <span class="timestamp">03:21 <i id="1"
+                                class="songItemPlay fa-regular fa-circle-play"></i></span> </i></span>
+
+                </div>
+
+                <div class="songItem">
+                    <img src="download22.jpg" alt="1">
+                    <span class="songName">Isqh Saccha Wahi</span>
+                    <span class="songlistplay"> <span class="timestamp">04:19 <i id="2"
+                                class="songItemPlay fa-regular fa-circle-play"></i></span> </i></span>
+
+                </div>
+                <div class="songItem">
+                    <img src="download22.jpg" alt="1">
+                    <span class="songName">Kahani Sunno</span>
+                    <span class="songlistplay"> <span class="timestamp">03:01 <i id="3"
+                                class="songItemPlay fa-regular fa-circle-play"></i></span> </i></span>
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="SongBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" class="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!--fontawsome-->
+            <i class="fa-solid fa-backward fa-xl" id="previous"></i>
+            <i class="fa-regular fa-circle-play fa-xl" id="masterPlay"></i>
+            <i class="fa-solid fa-forward fa-xl" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="gg.gif" width="44px" alt="0" id="gif"> <span id="masterSongName">maan</span>
+        </div>
+
+    </div>
+    <script src="spotifyclone.js">    </script>
+    <script src="https://kit.fontawesome.com/8937e64a6f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
